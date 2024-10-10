@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(38, 41, 41); /* Color de fondo */
+}
+html {
+    scroll-behavior: smooth;/*desplazamiento en la página cuando se navega hacia diferentes partes*/
+}
+header {
+    position: fixed;
+    width: 90%; /* Cambiar a 100% para cubrir el ancho completo */
+    padding-top: 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(38, 41, 41, 0.5);
+    top: 0;
+}
+
+.nav {
+    margin-top: 30px;
+    transform: translateX(25%);
+    background-color: rgba(255, 255, 255, 0.918);
+    display:flex;
+    width: 67%;
+    justify-content: space-between;
+    padding: 15px 45px;
+    border-radius: 40px;
+    box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.3);
+}
+.header-left{
+    font-size: 23px;
+    display: inline-block;
+    background-color: transparent;
+}
+.home, .aboutme, .contact {
+    font-weight: bold;
+    color: rgb(52, 177, 115);
+    margin-right: 25px;
+    font-family:monospace;
+}
+.home:hover {
+    color: rgb(31, 113, 72);
+    transition: color 200ms;
+}
+.aboutme:hover {
+    color: rgb(31, 113, 72);
+    transition: color 200ms;
+}
+.contact:hover {
+    color: rgb(31, 113, 72);
+    transition: color 200ms;
+}
+
+.header-right{
+    font-size: 23px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.cv, .github, .linkedin {
+    font-weight: bold;
+    color: rgb(52, 177, 115);
+    margin-left: 25px;
+    font-family:monospace;
+}
+.linkedin:hover {
+    color: rgb(31, 113, 72);
+    transition: color 200ms;
+}
+.github:hover {
+    color: rgb(31, 113, 72);
+        transition: color 200ms;
+}
+.cv:hover {
+    color: rgb(31, 113, 72);
+    transition: color 200ms;
+}
+
+.logor {
+        width: 50px;
+        padding: 10px;
+        position: absolute;
+        right: 50%;
+        top: 10%;
+}
+
+main{
+    display: flex;
+    justify-content: flex-start;/*alinea hacia la izquierda*/
+    flex-direction: column;/*en columna */
+    padding: 0;
+    margin: 0;
+    margin-left: 300px;
+}
+
+h1 {
+    text-shadow: 7px 7px 35px black;
+    margin-top: 230px;
+    font-size: 90px;
+    padding: auto;
+    color:white;
+    font-family:monospace;
+}
+h2 {
+    text-shadow: 10px 10px 30px black;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(38, 186, 102);
+    font-family:monospace;
+}
+h3{
+    text-shadow: 5px 5px 30px black;
+    font-size: 36px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    color: rgb(38, 186, 102);
+    font-family:monospace;
+    margin-bottom: 0;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 0;
+}
+
+.fachitax {
+    margin-top: 190px;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px rgb(27, 27, 27);
+}
+
+.descri {  
+    margin-top: 0;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    max-width: 570px;
+}
+
+h4 {
+    text-shadow: 5px 5px 30px black;
+    font-size: 36px;
+    margin-top: 150px;
+    color: rgb(38, 186, 102);
+    font-family:monospace;
+}
+
+.tec {
+    display: flex; /*alinear las imágenes en una línea */
+    gap: 30px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.tec-item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.tec-item p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    font-family: monospace;
+    text-shadow: 9px 9px 30px black;
+}
+
+.botones{
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.3);
+    font-size: 28px;
+    font-family:monospace;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding: 20px 70px;
+    background-color: rgba(19, 19, 19, 0.656);
+    color:white;
+    border-radius: 12px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.botones:hover {
+    font-weight: 550;
+    transition: 150ms;
+    box-shadow: 2px 4px 20px rgba(99, 99, 99, 0.3);
+    background-color: rgba(15, 15, 15, 0.752);
+}
+
+footer{
+    position: absolute;
+    margin-bottom: auto;
+    left: 43%;
+    color: gray;
+}
